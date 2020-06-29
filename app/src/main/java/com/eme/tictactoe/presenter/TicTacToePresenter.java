@@ -28,13 +28,14 @@ public class TicTacToePresenter implements ITicTacToePresenter {
 
     public TicTacToePresenter(@NonNull ITicTacToeView view) {
         this.view = view;
-        newGame();
+        this.newGame(); // let's start a new game
     }
 
     /**************************************************
      ** ITicTacToePresenter interface implementation **
      **************************************************/
     public void setCell(final int row, final int col) {
+        Timber.d("setCell() called with: row = [" + row + "], col = [" + col + "]");
         if (this.board.nextMove(row, col)) {
             //Update view with the current player image
             view.setCellImage(this.board.getCurrentPlayer().getAvatar());

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#B1B3AD</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorGradientStart">#282927</color>
+    <color name="colorGradientEnd">#0A0B09</color>
+
+    <color name="cell_background">#B1B3AD</color>
+    <color name="generalIcon">#5FB166</color>
 </resources>

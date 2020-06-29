@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cell">60dp</dimen>
+    <dimen name="grid_corners">20dp</dimen>
+    <dimen name="cell_corners">5dp</dimen>
+</resources>

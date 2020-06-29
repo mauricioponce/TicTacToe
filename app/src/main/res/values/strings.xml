@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">TicTacToe</string>
+    <string name="default_content_description">cell</string>
+
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
+
+    <!-- Dialog -->
+    <string name="dialog_title_winner">Nice game! The winner is</string>
+    <string name="dialog_title_draw">It\'s a draw!! Nice game!!</string>
+    <string name="dialog_winner">Player 1</string>
+    <string name="dialog_play_again">play again?</string>
+    <string name="dialog_default_content_description">image with the game result</string>
+    <string name="dialog_avatar_content_description">avatar for player</string>
 </resources>

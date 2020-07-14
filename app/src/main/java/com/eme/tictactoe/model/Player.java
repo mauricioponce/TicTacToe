@@ -11,9 +11,18 @@ public class Player {
 
     private int turn;
 
+    private int avatar;
+
     public Player(String name, int turn) {
         this.name = name;
         this.turn = turn;
+        this.avatar = -1;
+    }
+
+    public Player(String name, int turn, int avatar) {
+        this.name = name;
+        this.turn = turn;
+        this.avatar = avatar;
     }
 
     public String getName() {
@@ -33,6 +42,9 @@ public class Player {
     }
 
     public int getAvatar() {
+        if(this.avatar > 0) {
+            return this.avatar;
+        }
         return turn == 1 ? RES_PLAYER_1 : RES_PLAYER_2;
     }
 }

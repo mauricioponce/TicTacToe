@@ -104,7 +104,7 @@ public class BoardTest {
         // Given
         board.cells[0][0] = cell_player_1;
         board.cells[0][1] = cell_player_1;
-        board.cells[0][2] = cell_player_1;
+        board.cells[0][0] = cell_player_1;
 
         // When
         boolean result = board.hasThreeHorizontal();
